@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI 計算機</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <section class="calculator">
+    <section class="fields">
+      <h1>BMI 計算機</h1>
+      <h2>想要健康嗎？趕快動起來！</h2>
+      <div>
+        <label for="bodyHeight">身高</label>
+        <input type="number" id="bodyHeight" min="0">公分
+      </div>
+      <div>
+        <label for="bodyWeight">體重</label>
+        <input type="number" id="bodyWeight" min="0">公斤
+      </div>
+      <button>計算</button>
+    </section>
+
+    <section class="result">
+      <h2>計算結果：</h2>
+      <p id="resultText">0</p>
+    </section>
+    <div class="clearfix"></div>
+  </section>
+</body>
+</html>
