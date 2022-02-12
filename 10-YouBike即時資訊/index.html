@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouBike 即時資訊</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="app.js"></script>
+</head>
+<body>
+  <main class="container mt-4">
+
+    <form id="searchForm">
+      <div>
+        <label class="form-label">YouBike 即時資料查詢</label>
+        <small class="text-muted">資料來源：<a class="text-muted" href="https://data.gov.tw/dataset/137993" target="_blank">政府資料開放平台</a></small>
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control fs-3" id="searchKeyword" placeholder="可輸入關鍵字搜尋路名，例如：八德路">
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-success fs-3">搜尋</button>
+        </div>
+      </div>
+    </form>
+
+    <hr>
+
+    <ul class="siteList list-group">
+      <li class="list-group-item fs-5">
+        <i class="fas fa-bicycle"></i>
+        建國北路一段17巷 (20)<br>
+        <small class="text-muted">建國北路一段17巷/八德路二段137巷口</small>
+      </li>
+      <li class="list-group-item fs-5">
+        <i class="fas fa-bicycle"></i>
+        中崙高中 (0)<br>
+        <small class="text-muted">八德路四段91巷9號(對面)</small>
+      </li>
+      <li class="list-group-item fs-5">
+        <i class="fas fa-bicycle"></i>
+        臺北市藝文推廣處 (18)<br>
+        <small class="text-muted">八德路三段25號(前)</small>
+      </li>
+      <li class="list-group-item fs-5">
+        <i class="fas fa-bicycle"></i>
+        八德路三段74巷口 (9)<br>
+        <small class="text-muted">八德路三段74巷95號南側</small>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>

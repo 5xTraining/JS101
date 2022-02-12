@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+/* carousel and container */
+.carousel {
+  position: relative;
+  height: 500px;
+  width: 80vw;
+  margin: 10px auto;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+/* track */
+.container > .slide-track {
+  margin: 0;
+  height: 100%;
+  list-style: none;
+}
+
+/* slides */
+.slide-track > .slide {
+  inset: 0;
+  width: 100%;
+}
+
+.slide-track > .slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* next and previous navigator buttons */
+.carousel .carousel-btn {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 2em;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.carousel .carousel-btn:hover {
+  background-color: rgba(231, 221, 221, 0.2);
+}
+
+.carousel .prev-btn {
+  left: -60px;
+}
+
+.carousel .next-btn {
+  right: -60px;
+}
+
+/* dot indicators */
+.carousel nav {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel nav > .indicator {
+  border-radius: 50%;
+  border: 0;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+.carousel nav > .indicator.active {
+  background-color: rgba(0, 0, 0, 0.7);
+}

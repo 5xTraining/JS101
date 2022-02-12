@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Thin.ttf") format("truetype");
+}
+
+body {
+  background-color: #f0f0f0;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main .timer {
+  font-family: "Raleway", sans-serif;
+  font-size: 8em;
+}
