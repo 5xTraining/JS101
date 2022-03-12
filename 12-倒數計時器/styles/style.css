@@ -20,3 +20,7 @@ main .timer {
   font-family: "Raleway", sans-serif;
   font-size: 8em;
 }
+
+.times-up {
+  color: red;
+}
