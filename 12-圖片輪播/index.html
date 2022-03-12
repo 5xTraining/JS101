@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>圖片輪播</title>
   <link rel="stylesheet" href="styles/style.css">
-  <script src="scripts/app.js"></script>
+  <script src="scripts/app.js" defer></script>
 </head>
 <body>
   <main>
@@ -24,11 +24,11 @@
       <button class="carousel-btn next-btn"> &rarr; </button>
 
       <nav class="navigator">
-        <button class="indicator active"></button>
-        <button class="indicator"></button>
-        <button class="indicator"></button>
-        <button class="indicator"></button>
-        <button class="indicator"></button>
+        <button data-index="0" class="indicator"></button>
+        <button data-index="1" class="indicator"></button>
+        <button data-index="2" class="indicator"></button>
+        <button data-index="3" class="indicator"></button>
+        <button data-index="4" class="indicator"></button>
       </nav>
     </div>
   </main>

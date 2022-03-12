@@ -13,6 +13,7 @@ body {
 .container {
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 /* track */
@@ -20,12 +21,14 @@ body {
   margin: 0;
   height: 100%;
   list-style: none;
+  transition: transform 300ms ease-in;
 }
 
 /* slides */
 .slide-track > .slide {
   inset: 0;
   width: 100%;
+  position: absolute;
 }
 
 .slide-track > .slide > img {
@@ -78,4 +81,8 @@ body {
 
 .carousel nav > .indicator.active {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hide {
+  display: none;
 }
