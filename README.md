@@ -1,7 +1,7 @@
 # 五倍學院線上課程「JavaScript 入門」練習範例檔案
 
 課程代碼：JS101
-完整課程，請洽 https://base.5xcamp.us
+完整課程，請洽 https://base.5xcampus.com
 
 ## 實作練習
 
